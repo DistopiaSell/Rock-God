@@ -1,0 +1,39 @@
+<html>
+	<head>
+	<title>Rock God</title>
+	<link rel="stylesheet" type="text/css" href="rockstyle.css">
+	<body>
+		<header>
+		<div id=div>
+			<p>
+			<img src="rockgod.png" align="middle" id="logo">
+			</p>
+			<ul class="menu">
+                    <li><a href="rockgod.html">Home</a></li>
+                    <li><a href="shows.html">Shows</a></li>
+                    <li><a href="rockcontato.html">Contato</a></li>
+                    <li><a href="curriculo.html">Envie Seu Currículo</a></li>
+                    <li><a href="rocksobre.html">Sobre</a></li>
+                    <form action='/search' id='searchform' method='get' style='display: inline;'>
+					<input id='s' name='q' onblur='if (this.value == "") {this.value = "Buscar ...";}' onfocus='if (this.value == "Buscar ...") {this.value = ""}' type='text' value='Buscar ...'/>
+                </ul>
+                </div>
+		</header>
+	<article class="div2">
+		<section class="contato">
+			<h1 id="contatotxt">Contato:</h1>
+			<input id='name' name='q' onblur='if (this.value == "") {this.value = "Nome Completo";}' onfocus='if (this.value == "Nome Completo") {this.value = ""}' type='name' value='Nome Completo'/>
+			<input id='email' name='q' onblur='if (this.value == "") {this.value = "E-Mail";}' onfocus='if (this.value == "E-Mail") {this.value = ""}' type='email' value='E-Mail'/>
+			<input id='msn' name='q' onblur='if (this.value == "") {this.value = "Mensagem";}' onfocus='if (this.value == "Mensagem") {this.value = ""}' type='text' value='Mensagem'/>
+			<input id='go' name='q' type="submit" value="Enviar">
+			<label for="q" id="caixinhatxt"> Deseja receber notificações por e-mail?</label>
+			<input type="checkbox" name="q" id="caixinha">
+		</section>
+	</article>
+		<div class="div4">
+			<footer class="rodape">
+				<h4 id="rodapetxt">Rock|God Todos os direitos reservados.</h4>
+			</footer>
+		</div>
+	</body>
+</html>

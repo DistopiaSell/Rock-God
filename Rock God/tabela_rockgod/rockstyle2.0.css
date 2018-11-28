@@ -1,0 +1,130 @@
+body{
+	    background: #1A1A19 
+	    url(blackthunder.jpg) repeat;
+
+}
+
+
+#logo{
+	max-width: 200px; 
+	max-height: 150px;
+	width: auto;
+	height: auto;
+	clear: both;
+    margin-top: 10%;
+    position: relative;
+    top:50%;
+    left:7%;
+    margin-left: 33%;
+	border: 1px solid #dbdbdb;
+}
+
+#div{
+	width: 65%;
+	margin: auto;
+	background: #000000
+	url(bodybackground.png) repeat;
+}
+
+.menu{
+	margin-top: 7%;
+	text-align: right;
+
+}
+
+header ul li{
+	padding: left;
+	display: inline-block;
+	font-size: 17px;
+	list-style: square;
+
+}
+
+.menu li a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 85px;
+    color: #eee;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #1a1a1a;
+}
+
+#s{
+	margin-right: 20%;
+	height: 5%;
+	float: right;
+	margin-right: 5%;
+
+}
+
+article{
+	width: 65%;
+	margin: auto;
+	background: #000000
+	url(bodybackground.png) repeat;
+}
+
+.tabela{
+
+	background: white;
+}
+
+#top{
+	color: white;
+    margin-top: 5%;
+    position: relative;
+    top:50%;
+    left:-5%;
+    margin-left: 33%;
+    font-size: 350%;
+}
+
+
+
+.divgrid{
+	width: 65%;
+	margin: auto;
+	background: #000000
+	url(bodybackground.png) repeat;
+}
+
+.coluna{
+
+	width: 9%;
+	height: 12%;
+	background: white;
+	border: 1px solid gray;
+	float: left;
+	text-align: center;
+	font-size: 90%;
+	
+
+}
+
+
+.coluna p{
+
+	font-size: 86%;
+
+}
+
+.colunafinal{
+
+	width: 53.6%;
+	height: 12%;
+	background: white;
+	border: 1px solid gray;
+	float: left;
+	text-align: center;
+	font-size: 90%;
+
+}
+
+.colunafinal p{
+
+	font-size: 86%;
+
+}
